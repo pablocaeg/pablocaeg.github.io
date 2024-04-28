@@ -5,7 +5,7 @@
 /***** Main style *****/
 
 body {
-    min-height: 90.5vh;
+    min-height: 53.5rem;
     background:radial-gradient(ellipse at bottom,
                 #013155 0%, #01162E 100%) ;
 } 
@@ -140,7 +140,7 @@ ul.social-icons {
     margin-bottom: 3rem;
 }
 .profile-photo img {
-    width: 200px;
+    width: 12rem;
     height: auto;
     border-radius: 100%;
     border: 3px solid #fff;
