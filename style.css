@@ -5,7 +5,7 @@
 /***** Main style *****/
 
 body {
-    min-height: 82vh;
+    min-height: 90.5vh;
     background:radial-gradient(ellipse at bottom,
                 #013155 0%, #01162E 100%) ;
 } 
@@ -13,8 +13,8 @@ p {
     text-align: center;
 }
 .social {
-	margin-top: 10rem;
-	margin-bottom: 6rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
     position: center;
 }
 
@@ -135,7 +135,16 @@ ul.social-icons {
 .social-phrase {
     font-family: 'Playfair Display';
     font-size: 1.4rem;
-    color: #e8e8e8;
+    color: #ffffff;
     text-decoration: none;
     margin-bottom: 3rem;
+}
+.profile-photo img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: block; 
+    margin: 0 auto; 
 }

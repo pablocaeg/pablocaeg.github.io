@@ -5,6 +5,7 @@
   animation: move;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  z-index: -99;
 }
 
 .type-1{
