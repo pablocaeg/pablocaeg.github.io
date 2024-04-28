@@ -3,7 +3,7 @@ function createStars(type, quantity){
     var star = document.createElement('div');
     star.classList.add('star', `type-${type}`);
     star.style.left = `${randomNumber(1, 99)}%`;
-    star.style.bottom = `${randomNumber(1, 150)}%`;
+    star.style.bottom = `${randomNumber(1, 180)}%`;
     star.style.animationDuration = `${randomNumber(50, 200)}s`;
     document.body.appendChild(star);
   }

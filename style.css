@@ -13,7 +13,7 @@ p {
     text-align: center;
 }
 .social {
-	margin-top: 8rem;
+	margin-top: 10rem;
 	margin-bottom: 8rem;
     position: center;
 }
@@ -88,9 +88,13 @@ ul.social-icons {
     color: #f5aa42;
 }
 .social-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	font-family: 'Abril Fatface';
     font-size: 4.5rem;
     color: #e8e8e8;
+    margin-bottom: 1.5rem;
 }
 .social-subtitle {
     font-family: 'Playfair Display';
