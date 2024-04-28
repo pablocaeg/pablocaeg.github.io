@@ -5,7 +5,9 @@
 /***** Main style *****/
 
 body {
-    background: white;
+    min-height: 82vh;
+    background:radial-gradient(ellipse at bottom,
+                #013155 0%, #01162E 100%) ;
 } 
 p {
     text-align: center;
@@ -14,21 +16,22 @@ p {
 	margin-top: 10rem;
 	margin-bottom: 6rem;
     position: center;
-    /*top: 40%;*/
-    /* left: 50%; */
 }
 
-/***** Social Media *****/
+.container {
+    text-align: center;
+    display: block;
+}
 
 ul {
     padding:0;
     list-style: none;
 }
 .social-icon {
-    color: #333333;
+    color: #e8e8e8;
 }
 ul.social-icons {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .social-icons li {
     margin: 0.5rem;
@@ -37,7 +40,7 @@ ul.social-icons {
 }
 .social-icons a {
 	font-size:2.5rem;
-    color: #333333;
+    color: #e8e8e8;
     text-decoration: none;
 }
 .fa-github {
@@ -87,19 +90,12 @@ ul.social-icons {
 .social-title {
 	font-family: 'Abril Fatface';
     font-size: 5rem;
-    color: #333333;
+    color: #e8e8e8;
 }
 .social-subtitle {
     font-family: 'Playfair Display';
     font-size: 2rem;
-    color: #333333;
-}
-.previous-experience {
-    padding: 0px;
-    margin: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #e8e8e8;
 }
 .tech-skills {
     padding: 15px;
@@ -120,56 +116,26 @@ ul.social-icons {
 .svelte {
   background: url(./assets/img/svelte.svg);
 }
-.universidad {
-    background: url(./assets/img/universidad.svg);
-}
-.bemyvega {
-    background: url(./assets/img/bemyvega.svg);
-}
-.svg-exp {
-    background-size: contain ;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 3rem;
-    margin: 0px 1.8rem;
-    opacity: 0.8;
-    filter: grayscale(100%);
-    transition: .5s;
-}
-.svg-exp:hover {
-    opacity: 1;
-    filter: grayscale(0%);
-    transition: .5s;
-}
+
 .svg {
     background-size: contain ;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 1.8rem;
-    margin: 0.8rem;
+    padding: 2rem;
+    margin: 0px 1.8rem;
+    opacity: 0.8;
+    filter: grayscale(70%);
+    transition: .5s;
+}
+.svg:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transition: .5s;
 }
 .social-phrase {
     font-family: 'Playfair Display';
     font-size: 1.4rem;
-    color: #333333;
+    color: #e8e8e8;
     text-decoration: none;
     margin-bottom: 3rem;
-}
-.section {
-    border: 2px solid #aeaeae;
-    position: relative;
-    width: 30%;
-    padding: 0px;
-    margin-bottom: 20px;
-}
-.section-title {
-    position: absolute;
-    top: -14px;
-    left: 12px;
-    background-color: white;
-    padding: 2px 10px;
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    color: #333;
-    text-transform: uppercase; /* Optional style */
 }
