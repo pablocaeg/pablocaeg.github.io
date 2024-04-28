@@ -5,7 +5,7 @@
 /***** Main style *****/
 
 body {
-    min-height: 50.5rem;
+    min-height: 52.5rem;
     background:radial-gradient(ellipse at bottom,
                 #013155 0%, #01162E 100%) ;
 } 
@@ -13,7 +13,7 @@ p {
     text-align: center;
 }
 .social {
-	margin-top: 10rem;
+	margin-top: 6rem;
 	margin-bottom: 8rem;
     position: center;
 }
