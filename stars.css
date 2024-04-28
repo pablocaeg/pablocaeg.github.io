@@ -24,10 +24,10 @@
 }
 
 @keyframes move {
-  0% { 
+  0% {
     transform: translateX(0) translateY(0);
   }
   100% {
-    transform: translateX(-100vw) translateY(-100vh);
+    transform: translateX(-110vw) translateY(-110vh);
   }
 }

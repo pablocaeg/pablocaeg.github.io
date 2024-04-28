@@ -1,18 +1,19 @@
 function createStars(type, quantity) {
-  const fragment = document.createDocumentFragment(); // Use a document fragment
+  const fragment = document.createDocumentFragment();
   for (let i = 0; i < quantity; i++) {
     var star = document.createElement('div');
-    star.className = `star type-${type}`; // More concise class setting
-    star.style.left = `${randomNumber(1, 99)}vw`; // Changed to viewport width for responsiveness
-    star.style.bottom = `${randomNumber(1, 99)}vh`; // Changed to viewport height for responsiveness
+    star.className = `star type-${type}`;
+    // Randomize starting positions more effectively
+    star.style.left = `${randomNumber(0, 100)}vw`;
+    star.style.top = `${randomNumber(0, 100)}vh`;  // Use top instead of bottom for better control
     star.style.animationDuration = `${randomNumber(50, 200)}s`;
-    fragment.appendChild(star); // Append to the fragment
+    fragment.appendChild(star);
   }
-  document.body.appendChild(fragment); // Append all at once for performance
+  document.body.appendChild(fragment);
 }
 
 function randomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min; // Correct range calculation
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 createStars(1, 100);
